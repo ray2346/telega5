@@ -1,0 +1,1 @@
+web: index2.js
