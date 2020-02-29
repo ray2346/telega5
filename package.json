@@ -1,7 +1,6 @@
 {
   "name": "telega5",
   "version": "1.0.0",
-  "description": "",
   "main": "index2.js",
   "dependencies": {
     "node-telegram-bot-api": "^0.40.0"
@@ -22,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/ray2346/telega5/issues"
   },
-  "homepage": "https://github.com/ray2346/telega5#readme"
+  "homepage": "https://github.com/ray2346/telega5#readme",
+  "description": ""
 }
