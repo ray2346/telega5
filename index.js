@@ -35,5 +35,9 @@ bot.hears('i want to belive', (ctx) => ctx.replyWithPhoto('https://d2h1pu99sxkfv
 bot.hears("Покажи босса", (ctx) => ctx.replyWithPhoto('http://www.stickpng.com/assets/images/585e9740cb11b227491c34e5.png'))
 bot.hears("Покажи котика", (ctx) => ctx.replyWithPhoto("https://i.pinimg.com/474x/7c/45/9e/7c459e56fd8e93ee7b22ad7e7db94a54.jpg"))
 bot.hears('кот',(ctx) => ctx.replyWithPhoto('http://ipic.su/img/img7/fs/jfk.1553593436.jpg'))
-
+const Promise = require('bluebird');
+Promise.config({
+    cancellation: true
+});
 bot.launch()
+

@@ -1,17 +1,26 @@
 {
   "name": "telega5",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js "
+  "main": "index2.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0"
   },
-  "engines ": {
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index2.js"
+  },
+  "engines": {
     "node": "12.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ray2346/telega5.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-telegram-bot-api": "^0.40.0"
-  }
+  "bugs": {
+    "url": "https://github.com/ray2346/telega5/issues"
+  },
+  "homepage": "https://github.com/ray2346/telega5#readme",
+  "description": ""
 }
-
